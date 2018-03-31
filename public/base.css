@@ -1,0 +1,50 @@
+/* 
+ *
+ * reset style 
+ *
+*/
+body, p {
+	margin: 0;
+	line-height: 1;
+}
+div	{
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	background-color: #eee;
+}
+
+
+
+/* 
+ *
+ * common style
+ *
+*/
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.pt1 { padding-top: 1rem; }
+.pr1 { padding-right: 1rem; }
+.pb1 { padding-bottom: 1rem; }
+.pl1 { padding-left: 1rem; }
+.mb05 { margin-bottom: .5rem }
+
+/* main font color */
+.mc { color: #655f5f; }
+
+/* main active color */
+.mac { color: #5ed2ab; }
+
+/* 移动端1px问题 */
+.b-line:before, .t-line:before {
+	content: '';
+	position: absolute;
+	top: 100%; left: 0;
+	width: 100%; height: 1px;
+	background-color: #655f5f;
+	transform: scaleY(.2);
+}
+.t-line:before {
+	top: auto; bottom: 100%;
+}

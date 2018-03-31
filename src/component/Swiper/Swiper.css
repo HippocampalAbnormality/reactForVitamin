@@ -1,0 +1,15 @@
+ .Swiper {
+	background-color: powderblue;
+	overflow: hidden;
+	position: relative;
+}
+.Swiper .am-carousel-wrap-dot > span {
+	width: 1rem; height: 4px;
+	border-radius: 2px;
+}
+.Swiper .am-carousel-wrap-dot-active > span {
+	background-color: #5ed2ab;
+}
+.Swiper .slider-decorator-0 {
+	bottom: .2rem!important;
+}

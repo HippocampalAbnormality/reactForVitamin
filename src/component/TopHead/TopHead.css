@@ -1,0 +1,29 @@
+.TopHead {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	top: 0; left: 0;
+	width: 100%; height: 2rem;
+	z-index: 10;
+	background-color: #ffffff;
+	color: #655f5f;
+}
+.TopHead > .item {
+	flex-basis: 3rem;
+	text-align: center;
+	font-size: .625rem;
+}
+.TopHead > .item:nth-child(2) {
+	font-size: .75rem;
+	flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.TopHead .db {
+	width: .6rem;
+	vertical-align: middle;
+	margin-left: .2rem;
+}
+.TopHead .search {
+	width: 0.8rem;
+}

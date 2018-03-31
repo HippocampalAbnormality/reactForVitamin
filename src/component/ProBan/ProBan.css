@@ -1,0 +1,68 @@
+.ProBan {
+	background-color: #ffffff;
+	padding-bottom: 2rem;
+	padding-top: .8rem;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.ProBan .head {
+	padding-bottom: .6rem;
+}
+.ProBan .tit {
+	font-size: .75rem;
+	text-align: center;
+}
+.ProBan .lin {
+	font-size: .625rem;
+	color: #655f5f;
+	text-align: center;
+	margin-top: .5rem;
+}
+
+.ProBan > .bar {
+	position: absolute;
+	bottom: 1rem; left: 50%;
+	transform: translate(-50%, 1.5px);
+	width: 90%; height: 3px;
+	background-color: #eeeeee;
+	border-radius: 1.5px;
+}
+.ProBan .child {
+	width: 90%;
+	height: 100%;
+	background-color: #5ed2ab;
+	border-radius: 1.5px;
+}
+.ProBan > .hideScroll {
+	overflow: hidden;
+	height: 12rem;
+}
+.ProBan .ban {
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	font-size: 0;
+	padding-bottom: 1rem;
+}
+.ProBan > .ban::-webkit-scrollbar {
+	display:none;
+	width: 0;
+} 
+.ProBan .line {
+	white-space: nowrap;
+	width: max-content;
+	max-height: 5.8rem;
+	overflow: hidden;
+}
+.ProBan .line:first-child {
+	margin-bottom: 10px;
+}
+.ProBan .proimg {
+	width: 4.2rem;
+	margin-right: 5px;
+	box-sizing: border-box;
+	vertical-align: top
+}
+.ProBan .proimg:last-child {
+	margin-right: 0;
+}
